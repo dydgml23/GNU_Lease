@@ -1,0 +1,21 @@
+#hd{
+  background-color: #fff;
+}
+#tnb{
+  background-color: #fff;
+}
+#hd_wrapper{
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+#hd_sch{
+  border-radius: 0;
+  overflow: visible;
+  display: flex;
+  justify-content: space-between;
+}
+.car_search{
+  display: flex;
+  justify-content: space-between;
+}
