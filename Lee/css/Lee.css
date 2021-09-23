@@ -1,21 +1,101 @@
+.dn{
+  display: none;
+}
 #hd{
   background-color: #fff;
 }
 #tnb{
-  background-color: #fff;
+  background-color: #eee;
+}
+#tnb a{
+  color: #222 !important;
 }
 #hd_wrapper{
   background-color: #fff;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 #hd_sch{
   border-radius: 0;
-  overflow: visible;
   display: flex;
-  justify-content: space-between;
 }
 .car_search{
   display: flex;
   justify-content: space-between;
+}
+#hd_sch #sch_submit{
+  border-radius: 0;
+  background-color: #068ee5;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  float: none;
+}
+
+.pic_li_lt{
+  width: 100%;
+}
+#logo{
+  padding: 0;
+}
+.hd_sch_wr{
+  padding: 0;
+  width: auto;
+  margin-left: 0;
+}
+#hd_wrapper:after{
+  display: none;
+}
+.gnb_menu_btn{
+  font-style: normal;
+  cursor: pointer;
+}
+#gnb_all{
+  top: -140px;
+}
+#gnb_all h2{
+  text-align: center;
+}
+.cmdbox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.gsimg{
+  margin: 5px;
+}
+.gsimg img{
+  display: block;
+}
+.gsimg a ul li pre{
+  margin: 0;
+  white-space: pre-line;
+}
+.latest_top_wr{
+  margin:0;
+  height: 500px;
+}
+#topul{
+  display: flex;
+  position: relative;
+}
+.topcontent{
+  position: absolute;
+  left: 0;
+}
+#topul li h3{
+  margin:0 30px;
+}
+#topul li ul{
+  display: none;
+}
+#topul li.on ul{
+  display: block;
+}
+.sw_img{
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 0;
+  height: 120px;
 }
