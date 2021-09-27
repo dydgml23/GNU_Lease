@@ -74,7 +74,9 @@
 }
 .latest_top_wr{
   margin:0;
-  height: 500px;
+  height: 510px;
+  margin-bottom: 15px;
+  padding-top: 10px;
 }
 #topul{
   display: flex;
@@ -98,4 +100,103 @@
   background-position: center;
   margin-left: 0;
   height: 120px;
+}
+#mdul{
+  position: relative;
+  display: flex;
+}
+.mdcontent{
+  position: absolute;
+  left: 0;
+}
+#mdul li h3{
+  margin:0 30px;
+}
+#mdul li ul{
+  display: none;
+}
+#mdul li.on ul{
+  display: block;
+}
+.newul{
+  height: 1185px;
+}
+.hotul{
+  height: 269px;
+}
+a.lt_more {
+  text-align: center;
+  background-color: #ccc;
+  font-size: 1rem;
+  width: 930px;
+  height: 30px;
+  line-height: 2;
+}
+.btcontainer{
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.btcontainer a.lt_more{
+  width: 1200px;
+}
+.gnb_1dli span.bg{
+  display: none;
+}
+.asct{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.asct li pre{
+  font-size: 0.6rem;
+  margin:0;
+  overflow: visible;
+}
+.xi-call h3{
+  font-size: 1.9rem;
+  display: inline;
+  color: red;
+}
+.xi-call ul{
+  text-align: right;
+}
+.xi-call li{
+  font-size: 1rem;
+}
+.lat .lat_title a{
+  font-size: 0.9rem;
+}
+.lat .lt_more{
+  font-size: 0.8rem;
+  color: #222;
+  background-color: transparent;
+}
+.asbt ul{
+
+}
+.asbt ul li{
+  height: 60px;
+  display: block;
+  margin: 10px 0;
+}
+.asbt ul li a{
+  font-size: 1rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+.asbt ul li a span{
+  font-size: 0.8rem;
+}
+.xi-folder-open,.xi-library-books{
+  border-bottom: 1px solid #aaa;
+}
+#ft_wr{
+  text-align: center;
+}
+#ft_wr .ft_cnt{
+  margin: 0 auto;
+  float: none;
 }
